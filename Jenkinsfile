@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'rhcircleci:11' }
+        docker { image 'galeb/rhcircleci:11' }
     }
     stages {
         stage('Test') {
